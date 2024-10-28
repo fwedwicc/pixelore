@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Press+Start+2P&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h5 {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
