@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Timelapse Template = () => {
+const Timelapse = () => {
   return (
     <div className='bg-yellow-100 min-h-screen p-4 flex flex-col items-center justify-center'>
       <div className='bg-yellow-600 inline-flex items-center justify-center p-11 border-b-[1rem] border-yellow-800'>
@@ -18,4 +18,4 @@ const Timelapse Template = () => {
   )
 }
 
-export default Timelapse Template
+export default Timelapse

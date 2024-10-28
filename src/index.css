@@ -3,8 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
-h5 {
-  font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
+@layer base {
+  body {
+    @apply bg-yellow-100;
+  }
+  h5 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
 }
