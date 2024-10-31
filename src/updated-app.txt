@@ -6,7 +6,6 @@ const App = () => {
   return (
     <>
       <Frame variant={'sm'} pixel={pixels.RubberDucky} />
-      <Frame variant={'lg'} pixel={pixels.Zenitsu} />
     </>
   )
 }
