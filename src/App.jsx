@@ -10,6 +10,7 @@ const App = () => {
       <Frame variant={'sm'} pixel={pixels.RubberDucky} />
       <Frame variant={'sm'} pixel={pixels.Zenitsu} />
       <Frame variant={'sm'} pixel={pixels.Insouke} />
+      <Frame variant={'sm'} pixel={pixels.NezukoXTanjiro} />
     </div>
     </div>
   )
