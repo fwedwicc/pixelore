@@ -7,19 +7,21 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 const App = () => {
   return (
     <>
-      <main className='border border-blue-500 md:p-12 p-3 md:px-36 px-3 md:h-screen h-auto flex justify-center items-center'>
-        <div className='border border-green-500 h-[95%] w-full'>
-          <section className='border border-red-500 sticky bg-yellow-100 top-0'>
+      <main className='border border-blue-500 md:p-6 p-3 md:px-36 px-3 md:h-screen h-auto flex justify-center items-center'>
+        <div className='relative border border-green-500 h-[95%] w-[100%]'>
+          <section className='md:absolute sticky top-0 border border-red-500 bg-yellow-100 w-full'>
             <Header />
             <Nav />
           </section>
-          <section className='w-full overflow-y-auto max-h-[92%] bg-green-500/50'>
-            <Routes>
-              <Route path='/' element={<Home />} />
-              <Route path='/home' element={<Home />} />
-              <Route path='/collection' element={<Collection />} />
-              <Route path='/credits' element={<Credits />} />
-            </Routes>
+          <section className='pt-[11.7rem] w-full overflow-y-auto h-full'>
+            <div className='bg-yellow-200/30 rounded-2xl border'>
+              <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/home' element={<Home />} />
+                <Route path='/collection' element={<Collection />} />
+                <Route path='/credits' element={<Credits />} />
+              </Routes>
+            </div>
           </section>
         </div>
       </main>
