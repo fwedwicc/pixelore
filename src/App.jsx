@@ -13,8 +13,8 @@ const App = () => {
             <Header />
             <Nav />
           </section>
-          <section className='md:pt-[13.2rem] pt-0 w-full overflow-y-auto h-full border-t-0 border border-yellow-700/40 rounded-b-sm'>
-            <div className='bg-yellow-200/30 rounded-2xl'>
+          <section className='md:pt-[13.2rem] pt-0 w-full overflow-y-auto custom-scrollbar h-full bg-yellow-200/30 border-t-0 border border-yellow-700/40 rounded-b-sm'>
+            <div className=''>
               <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/home' element={<Home />} />

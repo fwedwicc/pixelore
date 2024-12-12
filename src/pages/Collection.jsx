@@ -10,7 +10,7 @@ const Collection = () => {
   return (
     <section className='p-4'>
       <div className='flex flex-col items-center justify-center mb-4'>
-        <h1>Collections</h1>
+        <h5>Collections</h5>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugi</p>
       </div>
       <div className='flex justify-center flex-wrap gap-4'>
