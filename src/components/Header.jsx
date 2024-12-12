@@ -2,8 +2,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <article className='h-40'>
-      asdf
+    <article className='h-40 border border-yellow-700/40'>
+      header
     </article>
   )
 }

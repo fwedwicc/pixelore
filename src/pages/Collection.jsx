@@ -3,7 +3,7 @@ import { Frame } from '../components'
 import { pixels } from '../data/pixels'
 
 const pixelData = [
-  pixels.RubberDucky, pixels.Zenitsu, pixels.Insouke, pixels.NezukoXTanjiro, pixels.DeadpoolXWolverine, pixels.Rengoku
+  pixels.RubberDucky, pixels.Zenitsu, pixels.Insouke, pixels.NezukoXTanjiro, pixels.DeadpoolXWolverine, pixels.Rengoku, pixels.Zenitsu, pixels.Insouke, pixels.NezukoXTanjiro, pixels.DeadpoolXWolverine, pixels.Rengoku,
 ]
 
 const Collection = () => {

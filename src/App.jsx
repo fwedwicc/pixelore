@@ -7,14 +7,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 const App = () => {
   return (
     <>
-      <main className='border border-blue-500 md:p-6 p-3 md:px-36 px-3 md:h-screen h-auto flex justify-center items-center'>
-        <div className='relative border border-green-500 h-[95%] w-[100%]'>
-          <section className='md:absolute sticky top-0 border border-red-500 bg-yellow-100 w-full'>
+      <main className='border md:p-6 p-3 md:px-36 px-3 md:h-screen h-auto flex justify-center items-center'>
+        <div className='relative h-[95%] w-[100%]'>
+          <section className='md:absolute sticky top-0 bg-yellow-100 w-full space-y-1'>
             <Header />
             <Nav />
           </section>
-          <section className='pt-[11.7rem] w-full overflow-y-auto h-full'>
-            <div className='bg-yellow-200/30 rounded-2xl border'>
+          <section className='md:pt-[13.2rem] pt-0 w-full overflow-y-auto h-full border-t-0 border border-yellow-700/40 rounded-b-sm'>
+            <div className='bg-yellow-200/30 rounded-2xl'>
               <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/home' element={<Home />} />
