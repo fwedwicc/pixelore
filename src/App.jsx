@@ -13,7 +13,7 @@ const App = () => {
             <Header />
             <Nav />
           </section>
-          <section className='md:pt-[13.2rem] pt-0 w-full overflow-y-auto custom-scrollbar h-full bg-yellow-200/30 border-t-0 border border-yellow-700/40 rounded-b-sm'>
+          <section className='md:pt-[12.9rem] pt-0 w-full overflow-y-auto custom-scrollbar h-full bg-yellow-100/60 border-t-0 border-2 border-amber-500/80'>
             <div className=''>
               <Routes>
                 <Route path='/' element={<Home />} />
