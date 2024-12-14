@@ -29,5 +29,5 @@
   [&::-webkit-scrollbar]:w-1
   [&::-webkit-scrollbar-track]:bg-transparent
   [&::-webkit-scrollbar-track]:mt-[12.8rem]
-  [&::-webkit-scrollbar-thumb]:bg-yellow-600/40;
+  [&::-webkit-scrollbar-thumb]:bg-yellow-500;
 }
