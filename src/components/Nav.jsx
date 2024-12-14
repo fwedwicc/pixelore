@@ -9,7 +9,7 @@ const Nav = () => {
   const linkStyles = 'inline-flex items-center gap-1 px-3 py-1.5 bg-yellow-700 text-yellow-100 border-yellow-900 pixel-font'
 
   return (
-    <div className='flex gap-1 border border-yellow-700/40 p-1'>
+    <div className='flex gap-1 py-1 border-b-2 border-amber-500/80'>
       <Link to={'/'} className={`${pathname === '/' ? activeLink : defaultLink} ${linkStyles}`}>
         Home
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={`${pathname === '/' ? 'rotate-90' : ''} size-3`}>

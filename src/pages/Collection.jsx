@@ -30,7 +30,7 @@ const Collection = () => {
           </svg>
         </div>
         <div className="flex items-center px-1 w-full bg-yellow-200 border-4 border-yellow-300/50 ring-1 ring-amber-500 text-yellow-800">
-          <p className='pixel-font text-[10px] leading-none'>Collection</p>
+          <p className='pixel-font text-[10px] leading-none'>Collection : <span className='text-yellow-600'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span></p>
         </div>
       </div>
       <div className="p-3 pt-[19px] bg-[#fef6b2] border-4 border-yellow-200/80 ring-1 ring-amber-500">
