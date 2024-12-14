@@ -55,4 +55,60 @@ export const Data = {
       description: 'A young boy with a big smile and a yellow beak.'
     }
   ],
+  Placeholder1: [
+    {
+      pixels: [],
+      name: 'Placeholder1',
+      description: 'A young boy with a big smile and a yellow beak.'
+    }
+  ],
+  Placeholder2: [
+    {
+      pixels: [],
+      name: 'Placeholder2',
+      description: 'A young boy with a big smile and a yellow beak.'
+    }
+  ],
+  Placeholder3: [
+    {
+      pixels: [],
+      name: 'Placeholder3',
+      description: 'A young boy with a big smile and a yellow beak.'
+    }
+  ],
+  Placeholder4: [
+    {
+      pixels: [],
+      name: 'Placeholder4',
+      description: 'A young boy with a big smile and a yellow beak.'
+    }
+  ],
+  Placeholder5: [
+    {
+      pixels: [],
+      name: 'Placeholder5',
+      description: 'A young boy with a big smile and a yellow beak.'
+    }
+  ],
+  Placeholder6: [
+    {
+      pixels: [],
+      name: 'Placeholder6',
+      description: 'A young boy with a big smile and a yellow beak.'
+    }
+  ],
+  Placeholder7: [
+    {
+      pixels: [],
+      name: 'Placeholder7',
+      description: 'A young boy with a big smile and a yellow beak.'
+    }
+  ],
+  Placeholder8: [
+    {
+      pixels: [],
+      name: 'Placeholder8',
+      description: 'A young boy with a big smile and a yellow beak.'
+    }
+  ],
 }
