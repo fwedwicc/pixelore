@@ -28,18 +28,24 @@ const Header = () => {
           </div>
         </div>
         {/* Socials */}
-        <div className='flex items-center gap-1'>
-          <a href="#" className={`bg-blue-500 border-blue-600 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
+        <div className='flex justify-between items-center'>
+          <div className='flex items-center gap-1'>
+            <a href="#" className={`bg-blue-500 hover:bg-blue-600 border-blue-600 hover:border-blue-700 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
+              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
+            </a>
+            <a href="#" className={`bg-blue-500 hover:bg-blue-600 border-blue-600 hover:border-blue-700 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
+              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
+            </a>
+            <a href="#" className={`bg-blue-500 hover:bg-blue-600 border-blue-600 hover:border-blue-700 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
+              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
+            </a>
+            <a href="#" className={`bg-blue-500 hover:bg-blue-600 border-blue-600 hover:border-blue-700 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
+              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
+            </a>
+          </div>
+          <a href="#" className={`bg-yellow-700 hover:bg-yellow-600 hover:border-yellow-800 border-yellow-900 flex items-center gap-2 px-2 py-2 ${defaultLink} ${activeLink}`}>
             <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
-          </a>
-          <a href="#" className={`bg-blue-500 border-blue-600 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
-            <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
-          </a>
-          <a href="#" className={`bg-blue-500 border-blue-600 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
-            <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
-          </a>
-          <a href="#" className={`bg-blue-500 border-blue-600 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
-            <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
+            <p className='pixel-font text-[10px] leading-none text-white'>Linktree</p>
           </a>
         </div>
       </div>

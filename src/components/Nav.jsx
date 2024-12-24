@@ -5,7 +5,7 @@ const Nav = () => {
   const { pathname } = useLocation();
 
   const activeLink = 'border-t-[5px] border-l-[5px] border-b-0 border-r-0'
-  const defaultLink = 'border-b-[5px] border-r-[5px]'
+  const defaultLink = 'border-b-[5px] border-r-[5px] hover:bg-yellow-600 hover:border-yellow-800'
   const linkStyles = 'inline-flex items-center gap-1 px-3 py-1.5 bg-yellow-700 text-yellow-100 border-yellow-900 pixel-font'
 
   return (
