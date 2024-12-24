@@ -9,7 +9,7 @@ const App = () => {
     <>
       <main className='border md:p-6 p-3 lg:px-36 md:px-12 px-3 md:h-screen h-auto flex justify-center items-center'>
         <div className='relative h-[95%] w-[100%]'>
-          <section className='md:absolute sticky top-0 bg-yellow-100 w-full space-y-[2px]'>
+          <section className='md:absolute sticky top-0 bg-yellow-100 w-full space-y-[4px]'>
             <Header />
             <Nav />
           </section>
