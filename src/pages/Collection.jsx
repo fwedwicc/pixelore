@@ -18,7 +18,11 @@ const Collection = () => {
 
   return (
     <section className="p-1 space-y-[4.5px]">
-      <Subheader />
+      <Subheader
+        icon={'https://placehold.co/30x30'}
+        name={'Collections'}
+        desc={'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+      />
       <div className="p-3 pt-[19px] bg-[#fef6b2] border-4 border-yellow-200/80 ring-1 ring-amber-500">
         {/* <div className="flex flex-col items-center justify-center mb-4">
           <h5>Collections</h5>
