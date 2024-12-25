@@ -31,20 +31,20 @@ const Header = () => {
         <div className='flex justify-between items-center'>
           <div className='flex items-center gap-1'>
             <a href="#" className={`bg-blue-500 hover:bg-blue-400 border-blue-700 hover:border-blue-600 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
-              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
+              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto cursor-click' />
             </a>
             <a href="#" className={`bg-pink-600 hover:bg-pink-500 border-pink-800 hover:border-pink-700 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
-              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
+              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto cursor-click' />
             </a>
             <a href="#" className={`bg-blue-600 hover:bg-blue-500 border-blue-800 hover:border-blue-700 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
-              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
+              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto cursor-click' />
             </a>
             <a href="#" className={`bg-neutral-600 hover:bg-neutral-500 border-neutral-800 hover:border-neutral-700 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
-              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
+              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto cursor-click' />
             </a>
           </div>
           <a href="#" className={`bg-yellow-700 hover:bg-yellow-600 hover:border-yellow-800 border-yellow-900 flex items-center gap-2 px-2 py-2 ${defaultLink} ${activeLink}`}>
-            <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
+            <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto cursor-click' />
             <p className='pixel-font text-[10px] leading-none text-white'>Linktree</p>
           </a>
         </div>

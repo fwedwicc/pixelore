@@ -3,7 +3,6 @@ import { Home, Collection, Credits } from './pages'
 import { Header, Nav } from './components'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-
 const App = () => {
   return (
     <>

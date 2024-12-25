@@ -6,6 +6,10 @@
 @layer base {
   body {
     @apply bg-yellow-100;
+    @apply overflow-y-auto
+  [&::-webkit-scrollbar]:w-1.5
+  [&::-webkit-scrollbar-track]:bg-transparent
+  [&::-webkit-scrollbar-thumb]:bg-yellow-500;
   }
   h5 {
     font-family: "Press Start 2P", system-ui;
@@ -30,4 +34,26 @@
   [&::-webkit-scrollbar-track]:bg-transparent
   [&::-webkit-scrollbar-track]:mt-[12.8rem]
   [&::-webkit-scrollbar-thumb]:bg-yellow-500;
+}
+
+/* Custom cursor for pixel theme */
+html,
+body,
+*,
+button,
+a,
+input,
+.disabled,
+a:disabled,
+input:disabled {
+  cursor: url("/cursor.png"), auto;
+}
+
+.cursor-click,
+button:hover,
+a:hover,
+input:hover,
+Link:hover,
+.hover:hover {
+  cursor: url("/cursor-click.png"), auto;
 }
