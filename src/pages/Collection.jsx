@@ -24,8 +24,8 @@ const Collection = () => {
         name={'Collections'}
         desc={'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
       />
-      <div className="p-3 pt-[19px] bg-[#fef6b2] border-4 border-yellow-200/80 ring-1 ring-amber-500">
-        <div className="flex justify-center flex-wrap gap-4">
+      <div className="md:p-3 p-1 md:pt-[19px] pt-[6px] bg-[#fef6b2] border-4 border-yellow-200/80 ring-1 ring-amber-500">
+        <div className="flex justify-center flex-wrap md:gap-4 gap-1.5">
           {Object.keys(Data).map((category) => (
             Data[category].map((item, index) => (
               <Frame
