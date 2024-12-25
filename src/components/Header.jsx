@@ -1,5 +1,5 @@
 import React from 'react'
-import { Avatar } from '../assets'
+import { Avatar, HeaderBg } from '../assets'
 
 const Header = () => {
 
@@ -8,8 +8,15 @@ const Header = () => {
 
   return (
     <article className='flex flex-col gap-1.5 md:flex-row md:h-40 h-full p-1 bg-yellow-100/60 border-2 border-amber-500/80'>
-      <div className='w-full bg-[#fef6b2] border-4 border-yellow-200/80 ring-1 ring-amber-500'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse odio illo molestias odit quisquam veniam eveniet, enim quis aperiam, autem culpa! Blanditiis alias sapiente saepe magnam illum quia quas ad.
+      <div className='relative w-full bg-[#fef6b2] border-4 border-yellow-200/80 ring-1 ring-amber-500 md:h-auto h-36'>
+        <img src={HeaderBg} alt="" className='object-cover w-full h-full' />
+        {/* TikTok link */}
+        <div className='absolute bottom-1 left-1'>
+          <a href="#" className={`bg-stone-800 hover:bg-stone-700 hover:border-stone-900 border-stone-950 flex items-center gap-2 px-2 py-2 ${defaultLink} ${activeLink}`}>
+            <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto cursor-click' />
+            <p className='pixel-font text-[10px] leading-none text-white cursor-click'>View on TikTok</p>
+          </a>
+        </div>
       </div>
       <div className='md:w-[35rem] w-full bg-[#fef6b2] border-4 border-yellow-200/80 ring-1 ring-amber-500 space-y-1'>
         {/* Profile and informations */}
@@ -45,7 +52,7 @@ const Header = () => {
           </div>
           <a href="#" className={`bg-yellow-700 hover:bg-yellow-600 hover:border-yellow-800 border-yellow-900 flex items-center gap-2 px-2 py-2 ${defaultLink} ${activeLink}`}>
             <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto cursor-click' />
-            <p className='pixel-font text-[10px] leading-none text-white'>Linktree</p>
+            <p className='pixel-font text-[10px] leading-none text-white cursor-click'>Linktree</p>
           </a>
         </div>
       </div>
