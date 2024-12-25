@@ -31,7 +31,7 @@ const Header = () => {
           <div className='space-y-1 pt-2'>
             <p className='pixel-font text-md leading-none text-yellow-800'>Frederick Moreno</p>
             <p className='pixel-font md:text-[10px] text-[9px] leading-none text-yellow-600'>@fwedwicc</p>
-            <p className='pt-3 italic pixel-font md:text-[10px] text-[9px] leading-tight text-yellow-600'>"I'm confident my younger self is rooting for me."</p>
+            <p className='md:pt-3 pt-2 italic pixel-font md:text-[10px] text-[9px] leading-tight text-yellow-600'>"I'm confident my younger self is rooting for me."</p>
           </div>
         </div>
         {/* Socials */}

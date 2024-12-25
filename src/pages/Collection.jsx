@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Frame, Modal, Subheader } from '../components';
 import { CollectionIcon } from '../assets/icon';
 import { Data } from '../data/pixels';
@@ -16,6 +16,20 @@ const Collection = () => {
     setIsModalOpen(false);
     setSelectedPixel(null);
   };
+
+
+  // Extract unique colors from the pixel array
+  const extractUniqueColors = (pixels) => {
+    return Array.from(new Set(pixels));
+  };
+
+  useEffect(() => {
+    Object.keys(Data).forEach((category) => {
+      Data[category].forEach((item) => {
+        item.palette = extractUniqueColors(item.pixels);
+      });
+    });
+  }, []);
 
   return (
     <section className="p-1 space-y-[4.5px]">
@@ -43,6 +57,8 @@ const Collection = () => {
           pixel={selectedPixel.pixels}
           name={selectedPixel.name}
           desc={selectedPixel.description}
+          palette={selectedPixel.palette}
+          tiktokLink={selectedPixel.tiktokLink}
           onClose={closeModal}
         />
       )}
