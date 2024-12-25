@@ -23,7 +23,7 @@ const Modal = ({ pixel, name, desc, palette, tiktokLink, onClose }) => {
               </div>
               <div className='flex w-full items-end justify-between absolute bottom-0 right-0'>
                 {tiktokLink ? (
-                  <a href={tiktokLink} className="md:px-3 px-2 md:py-2 py-1 md:text-xs text-[10px] bg-stone-800 hover:bg-stone-900 pixel-font text-white">Watch on TikTok</a>
+                  <a href={tiktokLink} target="_blank" rel="noopener noreferrer" className="md:px-3 px-2 md:py-2 py-1 md:text-xs text-[10px] bg-stone-800 hover:bg-stone-900 pixel-font text-white">Watch on TikTok</a>
                 ) : (
                   <p className='pixel-font md:text-[10px] text-[9px] leading-tight text-yellow-600'>TikTok not available</p>
                 )}
