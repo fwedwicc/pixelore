@@ -24,22 +24,22 @@ const Header = () => {
           <div className='space-y-1 pt-2'>
             <p className='pixel-font text-md leading-none text-yellow-800'>Frederick Moreno</p>
             <p className='pixel-font text-[10px] leading-none text-yellow-600'>@fwedwicc</p>
-            <p className='pt-3 italic pixel-font text-[10px] leading-none text-yellow-600'>"Hello world, Hello world, Hello world ,Hello world, Hello world"</p>
+            <p className='pt-3 italic pixel-font text-[10px] leading-tight text-yellow-600'>"I'm confident my younger self is rooting for me."</p>
           </div>
         </div>
         {/* Socials */}
         <div className='flex justify-between items-center'>
           <div className='flex items-center gap-1'>
-            <a href="#" className={`bg-blue-500 hover:bg-blue-600 border-blue-600 hover:border-blue-700 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
+            <a href="#" className={`bg-blue-500 hover:bg-blue-400 border-blue-700 hover:border-blue-600 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
               <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
             </a>
-            <a href="#" className={`bg-blue-500 hover:bg-blue-600 border-blue-600 hover:border-blue-700 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
+            <a href="#" className={`bg-pink-600 hover:bg-pink-500 border-pink-800 hover:border-pink-700 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
               <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
             </a>
-            <a href="#" className={`bg-blue-500 hover:bg-blue-600 border-blue-600 hover:border-blue-700 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
+            <a href="#" className={`bg-blue-600 hover:bg-blue-500 border-blue-800 hover:border-blue-700 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
               <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
             </a>
-            <a href="#" className={`bg-blue-500 hover:bg-blue-600 border-blue-600 hover:border-blue-700 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
+            <a href="#" className={`bg-neutral-600 hover:bg-neutral-500 border-neutral-800 hover:border-neutral-700 size-9 flex items-center justify-center ${defaultLink} ${activeLink}`}>
               <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto' />
             </a>
           </div>

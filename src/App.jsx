@@ -7,9 +7,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 const App = () => {
   return (
     <>
-      <main className='border md:p-6 p-3 lg:px-36 md:px-12 px-3 md:h-screen h-auto flex justify-center items-center'>
+      <div className='md:hidden block sticky top-0 z-50 bg-yellow-100 w-full h-3'></div>
+      <main className='md:p-6 p-3 pt-0 lg:px-36 md:px-12 px-3 md:h-screen h-auto flex justify-center items-center'>
         <div className='relative h-[95%] w-[100%]'>
-          <section className='md:absolute sticky top-0 bg-yellow-100 w-full space-y-[1px]'>
+          <section className='md:absolute sticky md:top-0 top-3 bg-yellow-100 w-full space-y-[1px]'>
             <Header />
             <Nav />
           </section>

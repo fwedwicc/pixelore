@@ -9,7 +9,7 @@ const Subheader = ({ icon, name, desc }) => {
         </div>
       </div>
       <div className="flex items-center py-1 px-1 w-full bg-yellow-200 border-4 border-yellow-300/50 ring-1 ring-amber-500 text-yellow-800">
-        <p className='pixel-font text-[10px] leading-none'>{name} : <span className='text-yellow-600'>{desc}</span></p>
+        <p className='pixel-font text-[10px] leading-tight'>{name} : <span className='text-yellow-600'>{desc}</span></p>
       </div>
     </div>
   )
