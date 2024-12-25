@@ -1,11 +1,12 @@
 import React from 'react'
 import { Subheader } from '../components';
+import { CreditsIcon } from '../assets/icon';
 
 const Credits = () => {
   return (
     <section className="p-1 space-y-[4.5px]">
       <Subheader
-        icon={'https://placehold.co/30x30'}
+        icon={CreditsIcon}
         name={'Credits'}
         desc={'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
       />

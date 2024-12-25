@@ -1,11 +1,12 @@
 import React from 'react'
 import { Subheader } from '../components';
+import { HomeIcon } from '../assets/icon';
 
 const Home = () => {
   return (
     <section className="p-1 space-y-[4.5px]">
       <Subheader
-        icon={'https://placehold.co/30x30'}
+        icon={HomeIcon}
         name={'Home'}
         desc={'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
       />
