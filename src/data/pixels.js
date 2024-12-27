@@ -5,7 +5,7 @@ export const Data = {
       name: 'Rubber Ducky',
       description: 'A rubber ducky with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: ''
+      tiktokLink: 'https://www.tiktok.com/@fwedwicc/video/7430770793241513224?is_from_webapp=1&sender_device=pc&web_id=7452985568700794369'
     }
   ],
   Zenitsu: [
@@ -14,7 +14,7 @@ export const Data = {
       name: 'Zenitsu Agatsuma',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/zwe'
+      tiktokLink: 'https://www.tiktok.com/@fwedwicc/video/7432896014538837266?is_from_webapp=1&sender_device=pc&web_id=7452985568700794369'
     }
   ],
   Inosuke: [
@@ -23,7 +23,7 @@ export const Data = {
       name: 'Inosuke Hashibira',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/'
+      tiktokLink: 'https://www.tiktok.com/@fwedwicc/video/7434007172276587794?is_from_webapp=1&sender_device=pc&web_id=7452985568700794369'
     }
   ],
   NezukoXTanjiro: [
@@ -32,7 +32,7 @@ export const Data = {
       name: 'Nezuko x Tanjiro',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/'
+      tiktokLink: 'https://www.tiktok.com/@fwedwicc/video/7434463796283870471?is_from_webapp=1&sender_device=pc&web_id=7452985568700794369'
     }
   ],
   DeadpoolXWolverine: [
@@ -41,7 +41,7 @@ export const Data = {
       name: 'Deadpool x Wolverine',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/'
+      tiktokLink: 'https://www.tiktok.com/@fwedwicc/video/7435272271536688391?is_from_webapp=1&sender_device=pc&web_id=7452985568700794369'
     }
   ],
   Rengoku: [
@@ -50,7 +50,7 @@ export const Data = {
       name: 'Rengoku',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/'
+      tiktokLink: 'https://www.tiktok.com/@fwedwicc/video/7447403215324269842?is_from_webapp=1&sender_device=pc&web_id=7452985568700794369'
     }
   ],
   Obanai: [
@@ -59,7 +59,7 @@ export const Data = {
       name: 'Obanai',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/'
+      tiktokLink: ''
     }
   ],
   Giyu: [
@@ -68,7 +68,7 @@ export const Data = {
       name: 'Giyu',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/'
+      tiktokLink: ''
     }
   ],
   Placeholder1: [
@@ -77,7 +77,7 @@ export const Data = {
       name: 'Placeholder1',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/'
+      tiktokLink: ''
     }
   ],
   Placeholder2: [
@@ -86,7 +86,7 @@ export const Data = {
       name: 'Placeholder2',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/'
+      tiktokLink: ''
     }
   ],
   Placeholder3: [
@@ -95,7 +95,7 @@ export const Data = {
       name: 'Placeholder3',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/'
+      tiktokLink: ''
     }
   ],
   Placeholder4: [
@@ -104,7 +104,7 @@ export const Data = {
       name: 'Placeholder4',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/'
+      tiktokLink: ''
     }
   ],
   Placeholder5: [
@@ -113,7 +113,7 @@ export const Data = {
       name: 'Placeholder5',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/'
+      tiktokLink: ''
     }
   ],
   Placeholder6: [
@@ -122,7 +122,7 @@ export const Data = {
       name: 'Placeholder6',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/'
+      tiktokLink: ''
     }
   ],
   Placeholder7: [
@@ -131,7 +131,7 @@ export const Data = {
       name: 'Placeholder7',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/'
+      tiktokLink: ''
     }
   ],
   Placeholder8: [
@@ -140,7 +140,7 @@ export const Data = {
       name: 'Placeholder8',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: 'https://www.tiktok.com/'
+      tiktokLink: ''
     }
   ],
 }
