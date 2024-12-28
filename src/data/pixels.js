@@ -55,7 +55,7 @@ export const Data = {
   ],
   Obanai: [
     {
-      pixels: [],
+      pixels: ['bg-violet-500', 'bg-violet-500', 'bg-neutral-700', 'bg-neutral-700', 'bg-neutral-700', 'bg-neutral-700', 'bg-neutral-700', 'bg-neutral-700', 'bg-neutral-700', 'bg-neutral-700', 'bg-violet-500', 'bg-violet-500', 'bg-violet-500', 'bg-neutral-700', 'bg-neutral-700', 'bg-neutral-900', 'bg-neutral-700', 'bg-neutral-700', 'bg-neutral-900', 'bg-neutral-900', 'bg-neutral-700', 'bg-neutral-700', 'bg-neutral-700', 'bg-violet-500', 'bg-violet-500', 'bg-neutral-700', 'bg-neutral-900', 'bg-neutral-900', 'bg-neutral-700', 'bg-neutral-900', 'bg-orange-300/50', 'bg-neutral-900', 'bg-neutral-900', 'bg-neutral-900', 'bg-neutral-700', 'bg-violet-500', 'bg-violet-500', 'bg-neutral-900', 'bg-neutral-900', 'bg-orange-300/50', 'bg-neutral-900', 'bg-neutral-900', 'bg-orange-300/50', 'bg-orange-300/50', 'bg-neutral-900', 'bg-neutral-900', 'bg-neutral-900', 'bg-neutral-700', 'bg-neutral-700', 'bg-neutral-900', 'bg-orange-300/50', 'bg-orange-400', 'bg-neutral-900', 'bg-orange-300/50', 'bg-teal-400', 'bg-orange-300/50', 'bg-neutral-900', 'bg-orange-300/50', 'bg-neutral-900', 'bg-neutral-700', 'bg-neutral-900', 'bg-neutral-900', 'bg-orange-300/50', 'bg-amber-300', 'bg-orange-300/50', 'bg-orange-300/50', 'bg-teal-200', 'bg-orange-300/50', 'bg-neutral-900', 'bg-orange-300/50', 'bg-neutral-900', 'bg-neutral-900'],
       name: 'Obanai',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
