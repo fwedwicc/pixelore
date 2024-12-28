@@ -13,7 +13,7 @@ const Header = () => {
         <img src={HeaderBg} alt="Pixel Header Background" className='object-cover w-full h-full' />
         {/* TikTok link */}
         <div className='absolute bottom-1 left-1'>
-          <a href="https://www.tiktok.com/@fwedwicc" target="_blank" rel="noopener noreferrer" className={`bg-stone-800 hover:bg-stone-700 hover:border-stone-900 border-stone-950 flex items-center md:gap-2 gap-1 md:py-1.5 py-1 md:px-2 px-1 ${defaultLink} ${activeLink}`}>
+          <a href="https://www.tiktok.com/@fwedwicc" target="_blank" rel="noopener noreferrer" className={`bg-stone-800 hover:bg-stone-700 hover:border-stone-900 border-stone-950 flex items-center md:gap-2 gap-1 md:py-1 py-1 md:px-2 px-1 ${defaultLink} ${activeLink}`}>
             <img src={TikTokIcon} alt="TikTok Pixel Icon" className='md:w-6 w-4 shrink-0 cursor-click' />
             <p className='pixel-font text-[10px] leading-none text-white cursor-click'>View on TikTok</p>
           </a>
@@ -51,7 +51,7 @@ const Header = () => {
               <img src={GitHubIcon} alt="GitHub Pixel Icon" className='md:w-6 w-4 h-auto cursor-click' />
             </a>
           </div>
-          <a href="https://fm-linktree.vercel.app" target="_blank" rel="noopener noreferrer" className={`bg-yellow-700 hover:bg-yellow-600 hover:border-yellow-800 border-yellow-900 flex items-center gap-1 md:py-1.5 py-1 md:px-2 px-1 ${defaultLink} ${activeLink}`}>
+          <a href="https://fm-linktree.vercel.app" target="_blank" rel="noopener noreferrer" className={`bg-yellow-700 hover:bg-yellow-600 hover:border-yellow-800 border-yellow-900 flex items-center gap-1 md:py-1 py-1 md:px-2 px-1 ${defaultLink} ${activeLink}`}>
             <img src={FMLinktreeIcon} alt="TikTok Pixel Icon" className='md:w-6 w-4 shrink-0 cursor-click' />
             <p className='pixel-font text-[10px] leading-none text-yellow-100 cursor-click'>Linktree</p>
           </a>
