@@ -35,8 +35,8 @@ const Collection = () => {
     <section className="p-1 space-y-[4.5px]">
       <Subheader
         icon={CollectionIcon}
-        name={'Collections'}
-        desc={'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+        name={'Collection'}
+        desc={'Diverse collection of my coded pixel masterpieces.'}
       />
       <div className="md:p-3 p-1 md:pt-[19px] pt-[6px] bg-[#fef6b2] border-4 border-yellow-200/80 ring-1 ring-amber-500">
         <div className="flex justify-center flex-wrap md:gap-4 gap-1.5">

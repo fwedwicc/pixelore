@@ -1,5 +1,6 @@
 import React from 'react'
 import { Avatar, HeaderBg } from '../assets'
+import { BehanceIcon, DribbbleIcon, FMLinktreeIcon, GitHubIcon, LinkedInIcon, TikTokIcon } from '../assets/icon'
 
 const Header = () => {
 
@@ -12,8 +13,8 @@ const Header = () => {
         <img src={HeaderBg} alt="Pixel Header Background" className='object-cover w-full h-full' />
         {/* TikTok link */}
         <div className='absolute bottom-1 left-1'>
-          <a href="https://www.tiktok.com/@fwedwicc" target="_blank" rel="noopener noreferrer" className={`bg-stone-800 hover:bg-stone-700 hover:border-stone-900 border-stone-950 flex items-center gap-2 md:p-2 p-1 ${defaultLink} ${activeLink}`}>
-            <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto cursor-click' />
+          <a href="https://www.tiktok.com/@fwedwicc" target="_blank" rel="noopener noreferrer" className={`bg-stone-800 hover:bg-stone-700 hover:border-stone-900 border-stone-950 flex items-center md:gap-2 gap-1 md:py-1.5 py-1 md:px-2 px-1 ${defaultLink} ${activeLink}`}>
+            <img src={TikTokIcon} alt="TikTok Pixel Icon" className='md:w-5 w-3 shrink-0 cursor-click' />
             <p className='pixel-font text-[10px] leading-none text-white cursor-click'>View on TikTok</p>
           </a>
         </div>
@@ -38,20 +39,20 @@ const Header = () => {
         <div className='flex justify-between items-center'>
           <div className='flex items-center gap-1'>
             <a href="https://www.linkedin.com/in/frederick-moreno/" target="_blank" rel="noopener noreferrer" className={`bg-blue-500 hover:bg-blue-400 border-blue-700 hover:border-blue-600 md:size-9 size-7 flex items-center justify-center ${defaultLink} ${activeLink}`}>
-              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto cursor-click' />
+              <img src={LinkedInIcon} alt="LinkedIn Pixel Icon" className='md:w-6 w-4 h-auto cursor-click' />
             </a>
             <a href="https://dribbble.com/fwedwic" target="_blank" rel="noopener noreferrer" className={`bg-pink-600 hover:bg-pink-500 border-pink-800 hover:border-pink-700 md:size-9 size-7 flex items-center justify-center ${defaultLink} ${activeLink}`}>
-              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto cursor-click' />
+              <img src={DribbbleIcon} alt="Dribbble Pixel Icon" className='md:w-6 w-4 h-auto cursor-click' />
             </a>
             <a href="https://www.behance.net/fwedwicc" target="_blank" rel="noopener noreferrer" className={`bg-blue-600 hover:bg-blue-500 border-blue-800 hover:border-blue-700 md:size-9 size-7 flex items-center justify-center ${defaultLink} ${activeLink}`}>
-              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto cursor-click' />
+              <img src={BehanceIcon} alt="Behance Pixel Icon" className='md:w-6 w-4 h-auto cursor-click' />
             </a>
             <a href="https://github.com/fwedwicc" target="_blank" rel="noopener noreferrer" className={`bg-neutral-600 hover:bg-neutral-500 border-neutral-800 hover:border-neutral-700 md:size-9 size-7 flex items-center justify-center ${defaultLink} ${activeLink}`}>
-              <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto cursor-click' />
+              <img src={GitHubIcon} alt="GitHub Pixel Icon" className='md:w-6 w-4 h-auto cursor-click' />
             </a>
           </div>
-          <a href="https://fm-linktree.vercel.app" target="_blank" rel="noopener noreferrer" className={`bg-yellow-700 hover:bg-yellow-600 hover:border-yellow-800 border-yellow-900 flex items-center gap-2 md:p-2 p-1 ${defaultLink} ${activeLink}`}>
-            <img src="https://placehold.co/30x30" alt="" className='w-4 h-auto cursor-click' />
+          <a href="https://fm-linktree.vercel.app" target="_blank" rel="noopener noreferrer" className={`bg-yellow-700 hover:bg-yellow-600 hover:border-yellow-800 border-yellow-900 flex items-center gap-1 md:py-1.5 py-1 md:px-2 px-1 ${defaultLink} ${activeLink}`}>
+            <img src={FMLinktreeIcon} alt="TikTok Pixel Icon" className='md:w-5 w-3 shrink-0 cursor-click' />
             <p className='pixel-font text-[10px] leading-none text-yellow-100 cursor-click'>Linktree</p>
           </a>
         </div>

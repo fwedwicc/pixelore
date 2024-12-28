@@ -8,10 +8,10 @@ const Credits = () => {
       <Subheader
         icon={CreditsIcon}
         name={'Credits'}
-        desc={'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+        desc={'Represents credits page.'}
       />
       <div className="p-3 pt-[19px] bg-[#fef6b2] border-4 border-yellow-200/80 ring-1 ring-amber-500">
-        This is Credits Page
+        <p className='pixel-font md:text-[10px] text-[9px] leading-tight text-yellow-700'>Credit page, under construction.</p>
       </div>
     </section>
   )
