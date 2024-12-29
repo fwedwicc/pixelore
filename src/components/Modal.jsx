@@ -1,7 +1,7 @@
 import React from 'react'
 import { Frame } from '../components'
 
-const Modal = ({ pixel, name, desc, palette, tiktokLink, onClose }) => {
+const Modal = ({ pixel, name, category, desc, palette, tiktokLink, onClose }) => {
   return (
     <div className="bg-yellow-950/30 size-full fixed inset-0 -top-[5px] z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto">
       <div className="sm:max-w-[27rem] sm:w-full md:m-4 m-[22px] sm:mx-auto">
@@ -9,8 +9,11 @@ const Modal = ({ pixel, name, desc, palette, tiktokLink, onClose }) => {
           <div className="flex flex-col md:gap-4 gap-2 md:p-4 p-2">
             <Frame variant={'lg'} pixel={pixel} />
             <div className='relative w-full md:pb-14 pb-10 space-y-4'>
-              <div className='space-y-1'>
-                <h5 className='md:text-lg text-xs'>{name}</h5>
+              <div className='space-y-3'>
+                <div className='flex flex-col items-start'>
+                  <h5 className='md:text-lg text-xs'>{name}</h5>
+                  <p className='p-1 pixel-font md:text-[10px] text-[9px] leading-tight text-yellow-100 bg-yellow-700'>{category}</p>
+                </div>
                 <p className='pixel-font md:text-[10px] text-[9px] leading-tight text-yellow-600'>{desc}</p>
               </div>
               <div className='space-y-1'>

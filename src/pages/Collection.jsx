@@ -56,6 +56,7 @@ const Collection = () => {
         <Modal
           pixel={selectedPixel.pixels}
           name={selectedPixel.name}
+          category={selectedPixel.category}
           desc={selectedPixel.description}
           palette={selectedPixel.palette}
           tiktokLink={selectedPixel.tiktokLink}
