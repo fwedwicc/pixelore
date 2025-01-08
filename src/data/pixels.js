@@ -76,7 +76,7 @@ export const Data = {
       category: 'Demon Slayer Edition',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
-      tiktokLink: ''
+      tiktokLink: 'https://www.tiktok.com/@fwedwicc/video/7457461987191082257?is_from_webapp=1&sender_device=pc&web_id=7457416906238494225'
     }
   ],
   Placeholder1: [
