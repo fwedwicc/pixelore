@@ -79,12 +79,12 @@ export const Data = {
       tiktokLink: 'https://www.tiktok.com/@fwedwicc/video/7457461987191082257?is_from_webapp=1&sender_device=pc&web_id=7457416906238494225'
     }
   ],
-  Placeholder1: [
+  Jinx: [
     {
-      pixels: [],
-      name: 'Placeholder1',
-      category: 'N/A',
-      description: 'A young boy with a big smile and a yellow beak.',
+      pixels: ['bg-rose-800', 'bg-rose-800', 'bg-teal-500', 'bg-teal-500', 'bg-teal-500', 'bg-teal-500', 'bg-teal-500', 'bg-teal-500', 'bg-teal-500', 'bg-teal-500', 'bg-rose-800', 'bg-rose-800', 'bg-rose-800', 'bg-teal-500', 'bg-teal-500', 'bg-teal-400', 'bg-cyan-600', 'bg-teal-400', 'bg-cyan-600', 'bg-teal-500', 'bg-teal-500', 'bg-teal-500', 'bg-teal-500', 'bg-rose-800', 'bg-rose-800', 'bg-teal-500', 'bg-teal-400', 'bg-cyan-600', 'bg-orange-200/30', 'bg-cyan-600', 'bg-teal-400', 'bg-cyan-600', 'bg-teal-500', 'bg-teal-500', 'bg-teal-500', 'bg-rose-800', 'bg-teal-500', 'bg-teal-500', 'bg-teal-400', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-teal-400', 'bg-orange-200/30', 'bg-teal-500', 'bg-teal-500', 'bg-rose-800', 'bg-teal-500', 'bg-teal-400', 'bg-teal-400', 'bg-pink-600', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-pink-600', 'bg-orange-200/30', 'bg-teal-400', 'bg-cyan-600', 'bg-teal-500', 'bg-rose-800', 'bg-cyan-600', 'bg-teal-400', 'bg-teal-400', 'bg-pink-400', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-pink-400', 'bg-orange-200/30', 'bg-teal-400', 'bg-orange-200/30', 'bg-cyan-600', 'bg-rose-800', 'bg-cyan-600', 'bg-teal-400', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-cyan-600', 'bg-cyan-600', 'bg-teal-500', 'bg-rose-800', 'bg-cyan-600', 'bg-cyan-600', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-cyan-600', 'bg-cyan-600', 'bg-cyan-600', 'bg-cyan-600', 'bg-rose-800', 'bg-cyan-600', 'bg-cyan-600', 'bg-orange-200/60', 'bg-neutral-700', 'bg-neutral-700', 'bg-orange-200/60', 'bg-neutral-700', 'bg-rose-800', 'bg-cyan-600', 'bg-cyan-600', 'bg-rose-800', 'bg-rose-800', 'bg-yellow-800/90', 'bg-orange-200/30', 'bg-neutral-700', 'bg-orange-200/60', 'bg-orange-200/60', 'bg-neutral-700', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-rose-800', 'bg-yellow-800/90', 'bg-rose-800', 'bg-rose-800', 'bg-cyan-600', 'bg-orange-200/30', 'bg-yellow-800/90', 'bg-neutral-700', 'bg-neutral-700', 'bg-yellow-800/90', 'bg-neutral-700', 'bg-orange-200/30', 'bg-orange-200/30', 'bg-cyan-600', 'bg-rose-800', 'bg-cyan-600', 'bg-orange-200/30', 'bg-neutral-700', 'bg-neutral-700', 'bg-yellow-800/90', 'bg-yellow-800/90', 'bg-neutral-700', 'bg-neutral-700', 'bg-neutral-700', 'bg-orange-200/30', 'bg-cyan-600', 'bg-cyan-600'],
+      name: 'Jinx',
+      category: 'League of Legends Edition',
+      description: 'Jinx, from League of Legends and Arcane, is a chaotic outlaw with a tragic past, known for her blue hair and explosive mayhem.',
       palette: [],
       tiktokLink: ''
     }
