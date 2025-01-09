@@ -20,7 +20,9 @@ const Modal = ({ pixel, name, category, desc, palette, tiktokLink, onClose }) =>
                 <p className='pixel-font md:text-[10px] text-[9px] leading-tight text-yellow-600'>Palette:</p>
                 <div className='flex flex-wrap gap-1'>
                   {palette.map((pixel, index) => (
-                    <span className={`${pixel} md:rounded-sm rounded-[1.5px] md:size-6 size-5`} key={index}></span>
+                    <span className='md:rounded-sm rounded-[1.5px] md:size-6 size-5 bg-white z-10 relative' key={index}>
+                      <span className={`${pixel} md:rounded-sm rounded-[1.5px] md:size-6 size-5 absolute z-50`}></span>
+                    </span>
                   ))}
                 </div>
               </div>
