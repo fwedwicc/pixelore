@@ -89,12 +89,12 @@ export const Data = {
       tiktokLink: ''
     }
   ],
-  Placeholder2: [
+  Mitsuri: [
     {
-      pixels: [],
-      name: 'Placeholder2',
-      category: 'N/A',
-      description: 'A young boy with a big smile and a yellow beak.',
+      pixels: ['bg-pink-800', 'bg-pink-800', 'bg-pink-400', 'bg-pink-400', 'bg-pink-400', 'bg-pink-400', 'bg-pink-400', 'bg-pink-400', 'bg-pink-400', 'bg-pink-400', 'bg-pink-800', 'bg-pink-800', 'bg-pink-800', 'bg-pink-400', 'bg-pink-400', 'bg-pink-400', 'bg-pink-500', 'bg-pink-400', 'bg-pink-500', 'bg-pink-400', 'bg-pink-400', 'bg-pink-400', 'bg-pink-400', 'bg-pink-800', 'bg-pink-800', 'bg-pink-400', 'bg-pink-400', 'bg-pink-600', 'bg-orange-200/60', 'bg-pink-600', 'bg-orange-200/60', 'bg-pink-600', 'bg-pink-400', 'bg-pink-400', 'bg-pink-400', 'bg-pink-800', 'bg-pink-800', 'bg-pink-400', 'bg-pink-400', 'bg-lime-400', 'bg-orange-200/60', 'bg-lime-400', 'bg-orange-200/60', 'bg-lime-400', 'bg-pink-400', 'bg-pink-400', 'bg-pink-400', 'bg-pink-800', 'bg-pink-400', 'bg-pink-400', 'bg-orange-200/60', 'bg-lime-600', 'bg-orange-200/60', 'bg-orange-200/60', 'bg-lime-600', 'bg-orange-200/60', 'bg-pink-400', 'bg-pink-500', 'bg-pink-400', 'bg-pink-800', 'bg-pink-500', 'bg-pink-400', 'bg-orange-200/60', 'bg-lime-300', 'bg-orange-200/60', 'bg-orange-200/60', 'bg-lime-300', 'bg-orange-200/60', 'bg-pink-500', 'bg-orange-200/60', 'bg-pink-500', 'bg-pink-400', 'bg-pink-800', 'bg-pink-400', 'bg-orange-200/60', 'bg-orange-200/60', 'bg-orange-200/60', 'bg-orange-200/60', 'bg-orange-200/60', 'bg-orange-200/60', 'bg-lime-400', 'bg-lime-400', 'bg-pink-600', 'bg-pink-600', 'bg-pink-800', 'bg-pink-500', 'bg-lime-400', 'bg-orange-200/60', 'bg-orange-200/60', 'bg-orange-200/60', 'bg-orange-200/60', 'bg-orange-200/60', 'bg-lime-400', 'bg-pink-600', 'bg-pink-600', 'bg-pink-800', 'bg-pink-600', 'bg-pink-600', 'bg-pink-600', 'bg-neutral-700', 'bg-white', 'bg-white', 'bg-neutral-700', 'bg-neutral-700', 'bg-pink-600', 'bg-pink-600', 'bg-pink-600', 'bg-pink-800', 'bg-lime-400', 'bg-pink-600', 'bg-neutral-700', 'bg-neutral-700', 'bg-white', 'bg-white', 'bg-neutral-700', 'bg-neutral-700', 'bg-lime-400', 'bg-pink-600', 'bg-lime-400', 'bg-pink-600', 'bg-lime-400', 'bg-lime-400', 'bg-neutral-700', 'bg-white', 'bg-orange-200/60', 'bg-orange-200/60', 'bg-white', 'bg-neutral-700', 'bg-lime-400', 'bg-lime-400', 'bg-lime-400', 'bg-lime-400', 'bg-lime-500', 'bg-lime-400', 'bg-white', 'bg-white', 'bg-orange-200/60', 'bg-orange-200/60', 'bg-white', 'bg-white', 'bg-neutral-700', 'bg-lime-500', 'bg-lime-400', 'bg-lime-500'],
+      name: 'Mitsuri',
+      category: 'Demon Slayer Edition',
+      description: 'Mitsuri, the Love Hashira from Demon Slayer, is known for her kind heart, pink-green hair, and graceful yet powerful fighting style.',
       palette: [],
       tiktokLink: ''
     }
