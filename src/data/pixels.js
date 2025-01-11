@@ -99,11 +99,11 @@ export const Data = {
       tiktokLink: ''
     }
   ],
-  Placeholder3: [
+  Uzui: [
     {
-      pixels: [],
-      name: 'Placeholder3',
-      category: 'N/A',
+      pixels: ['bg-blue-900', 'bg-blue-900', 'bg-neutral-50', 'bg-neutral-200/60', 'bg-neutral-200/60', 'bg-neutral-200/60', 'bg-neutral-50', 'bg-neutral-200/60', 'bg-neutral-200/60', 'bg-neutral-200/60', 'bg-blue-900', 'bg-blue-900', 'bg-blue-900', 'bg-neutral-200/60', 'bg-neutral-200/60', 'bg-neutral-200/60', 'bg-neutral-300', 'bg-neutral-300', 'bg-neutral-300', 'bg-violet-200/60', 'bg-neutral-300', 'bg-neutral-200/60', 'bg-neutral-50', 'bg-blue-900', 'bg-blue-900', 'bg-neutral-200/60', 'bg-neutral-300', 'bg-neutral-300', 'bg-violet-200/60', 'bg-neutral-300', 'bg-violet-200/60', 'bg-neutral-300', 'bg-neutral-300', 'bg-neutral-200/60', 'bg-neutral-200/60', 'bg-blue-900', 'bg-neutral-200/60', 'bg-teal-200/50', 'bg-violet-200/60', 'bg-neutral-300', 'bg-orange-200/70', 'bg-orange-200/70', 'bg-red-300/90', 'bg-orange-200/70', 'bg-teal-200/50', 'bg-neutral-200/60', 'bg-neutral-200/60', 'bg-neutral-50', 'bg-neutral-50', 'bg-teal-200/50', 'bg-orange-200/70', 'bg-red-600', 'bg-orange-200/70', 'bg-red-300/90', 'bg-red-600', 'bg-orange-200/70', 'bg-teal-200/50', 'bg-orange-200/70', 'bg-neutral-200/60', 'bg-neutral-200/60', 'bg-blue-900', 'bg-teal-200/50', 'bg-orange-200/70', 'bg-rose-500/90', 'bg-orange-200/70', 'bg-orange-200/70', 'bg-rose-500/90', 'bg-red-300/90', 'bg-teal-200/50', 'bg-yellow-400', 'bg-neutral-300/60', 'bg-blue-900'],
+      name: 'Uzui',
+      category: 'Demon Slayer Edition',
       description: 'A young boy with a big smile and a yellow beak.',
       palette: [],
       tiktokLink: ''
