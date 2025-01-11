@@ -109,12 +109,12 @@ export const Data = {
       tiktokLink: ''
     }
   ],
-  Placeholder4: [
+  Nezuko: [
     {
-      pixels: [],
-      name: 'Placeholder4',
-      category: 'N/A',
-      description: 'A young boy with a big smile and a yellow beak.',
+      pixels: ['bg-red-800', 'bg-red-800', 'bg-neutral-800', 'bg-neutral-800', 'bg-neutral-800', 'bg-neutral-800', 'bg-neutral-800', 'bg-neutral-800', 'bg-neutral-800', 'bg-neutral-800', 'bg-red-800', 'bg-red-800', 'bg-red-800', 'bg-neutral-800', 'bg-neutral-800', 'bg-neutral-800', 'bg-neutral-900', 'bg-neutral-800', 'bg-neutral-900', 'bg-neutral-800', 'bg-neutral-800', 'bg-pink-400', 'bg-neutral-800', 'bg-red-800', 'bg-red-800', 'bg-neutral-800', 'bg-neutral-800', 'bg-neutral-900', 'bg-orange-200/50', 'bg-orange-200/50', 'bg-orange-200/50', 'bg-neutral-900', 'bg-pink-400', 'bg-neutral-800', 'bg-neutral-800', 'bg-red-800', 'bg-red-800', 'bg-neutral-800', 'bg-neutral-800', 'bg-orange-200/50', 'bg-orange-200/50', 'bg-orange-200/50', 'bg-orange-200/50', 'bg-orange-200/50', 'bg-neutral-800', 'bg-neutral-800', 'bg-neutral-800', 'bg-red-800', 'bg-neutral-800', 'bg-neutral-800', 'bg-orange-200/50', 'bg-pink-500', 'bg-orange-200/50', 'bg-orange-200/50', 'bg-pink-500', 'bg-orange-200/50', 'bg-neutral-800', 'bg-neutral-900', 'bg-neutral-800', 'bg-red-800', 'bg-neutral-900', 'bg-neutral-800', 'bg-orange-200/50', 'bg-pink-400', 'bg-orange-200/50', 'bg-orange-200/50', 'bg-pink-400', 'bg-orange-200/50', 'bg-neutral-800', 'bg-orange-200/50', 'bg-neutral-800', 'bg-neutral-900'],
+      name: 'Nezuko',
+      category: 'Demon Slayer Edition',
+      description: 'A young girl with a big smile and a yellow beak.',
       palette: [],
       tiktokLink: ''
     }
